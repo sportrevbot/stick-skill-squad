@@ -12,11 +12,13 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <HeroSection onApplyClick={scrollToForm} />
       
       {/* YouTube Placeholder */}
       <YouTubePlaceholder />
+   
+
+      {/* Hero Section */}
+      <HeroSection onApplyClick={scrollToForm} />
       
       {/* Benefits Section */}
       <BenefitsSection />
