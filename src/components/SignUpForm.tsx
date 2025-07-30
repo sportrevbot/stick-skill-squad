@@ -20,22 +20,36 @@ export const SignUpForm = ({ id = "signup", showHeading = true }: SignUpFormProp
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
+  
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+
+  try {
+    await fetch("https://formspree.io/f/mvgqqggk", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+
     toast({
       title: "Application Submitted! 🎉",
-      description: "Thanks for applying! We'll review your application and get back to you soon. Keep training hard!",
+      description: "Thanks for applying! Check your email for confirmation.",
       duration: 5000,
     });
-    
+
     setFormData({ email: "", products: "", socialProfiles: "", message: "" });
-    setIsSubmitting(false);
-  };
+  } catch (error) {
+    toast({
+      title: "Submission Failed",
+      description: "Please try again later.",
+      duration: 5000,
+    });
+  }
+
+  setIsSubmitting(false);
+};
+
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({
