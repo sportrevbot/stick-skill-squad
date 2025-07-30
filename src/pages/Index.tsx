@@ -14,14 +14,14 @@ const Index = () => {
     <div className="min-h-screen">
 
 
-      {/* YouTube Placeholder */}
-      <YouTubePlaceholder />
-   
-         
       {/* Hero Section */}
       <HeroSection onApplyClick={scrollToForm} />
       
 
+
+      {/* YouTube Placeholder */}
+      <YouTubePlaceholder />
+   
 
       {/* Benefits Section */}
       <BenefitsSection />
