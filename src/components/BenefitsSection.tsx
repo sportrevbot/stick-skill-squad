@@ -3,7 +3,6 @@ import { CheckCircle } from "lucide-react";
 export const BenefitsSection = () => {
   const benefits = [
     "Get free Better Hockey gear (trainers, tiles, passers, goalie targets, shirts)",
-    "Create TikTok and Instagram videos showing your skills",
     "Be featured by Better Hockey to thousands of players worldwide", 
     "Join a global community of hockey creators"
   ];
