@@ -21,7 +21,9 @@ export const HeroSection = ({ onApplyClick }: HeroSectionProps) => {
 <div className="relative z-10 container mx-auto px-6 text-center">
   <div className="max-w-4xl mx-auto">
     <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-hockey-black mb-6 leading-tight">
-      Become a Better&nbsp;Hockey Ambassador!
+    
+        Become a <span className="[font-variant:small-caps]">Better&nbsp;Hockey</span> Ambassador!
+
     </h1>
     
     <p className="text-xl md:text-2xl text-hockey-gray mb-8 max-w-2xl mx-auto leading-relaxed">
