@@ -9,13 +9,15 @@ export const HowItWorksSection = () => {
     },
     {
       step: "2", 
-      title: "Get Your Gear",
-      description: "Receive free Better Hockey training equipment delivered to your door"
+            title: "Post Fun Training Videos", 
+      description: "Create awesome content showing off your skills with our gear"
+
     },
     {
       step: "3",
-      title: "Post Fun Training Videos", 
-      description: "Create awesome content showing off your skills with our gear"
+            title: "Get Your Gear",
+      description: "Receive free Better Hockey training equipment delivered to your door"
+
     },
     {
       step: "4",
