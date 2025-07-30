@@ -39,20 +39,7 @@ export const HeroSection = ({ onApplyClick }: HeroSectionProps) => {
       Apply Now 🏒
     </Button>
     
-    <div className="flex items-center justify-center gap-4 text-hockey-gray text-sm">
-      <div className="flex items-center gap-2">
-        <div className="w-2 h-2 bg-hockey-red rounded-full animate-pulse"></div>
-        <span>Ages 8-16</span>
-      </div>
-      <div className="flex items-center gap-2">
-        <div className="w-2 h-2 bg-hockey-red rounded-full animate-pulse"></div>
-        <span>Free Gear</span>
-      </div>
-      <div className="flex items-center gap-2">
-        <div className="w-2 h-2 bg-hockey-red rounded-full animate-pulse"></div>
-        <span>Global Community</span>
-      </div>
-    </div>
+    
   </div>
 </div>
 
