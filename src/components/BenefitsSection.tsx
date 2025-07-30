@@ -13,8 +13,7 @@ export const BenefitsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-black text-hockey-black mb-6">
-            Why Become an{" "}
-            <span className="text-hockey-red">Ambassador?</span>
+            Why Become an Ambassador?
           </h2>
           <p className="text-xl text-hockey-gray max-w-2xl mx-auto">
             Join an elite team of young hockey creators and get amazing perks!

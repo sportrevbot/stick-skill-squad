@@ -38,8 +38,7 @@ export const FAQSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-black text-hockey-black mb-6">
-            Got{" "}
-            <span className="text-hockey-red">Questions?</span>
+            Got Questions?
           </h2>
           <p className="text-xl text-hockey-gray max-w-2xl mx-auto">
             Everything you need to know about becoming a Better Hockey ambassador
@@ -54,7 +53,7 @@ export const FAQSection = () => {
                 value={`item-${index}`}
                 className="bg-card rounded-2xl px-6 border-0 shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                <AccordionTrigger className="text-left text-lg font-bold text-hockey-black hover:text-hockey-red py-6 hover:no-underline">
+                <AccordionTrigger className="text-left text-lg font-bold text-hockey-black hover:text-hockey-gray py-6 hover:no-underline">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-hockey-gray leading-relaxed pb-6 text-base">

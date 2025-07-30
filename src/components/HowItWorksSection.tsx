@@ -29,10 +29,7 @@ export const HowItWorksSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-black text-ice-white mb-6">
-            How It{" "}
-            <span className="text-hockey-red bg-gradient-to-r from-hockey-red to-hockey-red-light bg-clip-text text-transparent">
-              Works
-            </span>
+            How It Works
           </h2>
           <p className="text-xl text-ice-gray max-w-2xl mx-auto">
             Four simple steps to join the Better Hockey ambassador team
@@ -44,7 +41,7 @@ export const HowItWorksSection = () => {
             {steps.map((stepItem, index) => (
               <div key={index} className="relative">
                 <div className="bg-card rounded-2xl p-8 text-center hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl">
-                  <div className="w-16 h-16 bg-gradient-to-br from-hockey-red to-hockey-red-light rounded-full flex items-center justify-center mx-auto mb-6">
+                  <div className="w-16 h-16 bg-hockey-red rounded-full flex items-center justify-center mx-auto mb-6">
                     <span className="text-2xl font-black text-ice-white">
                       {stepItem.step}
                     </span>

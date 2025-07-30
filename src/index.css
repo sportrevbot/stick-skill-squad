@@ -22,10 +22,8 @@
     --accent: 0 84% 50%;
     --accent-foreground: 0 0% 98%;
     
-    /* Hockey energy red */
+    /* Hockey red accent - only for checkmarks and bullets */
     --hockey-red: 0 84% 50%;
-    --hockey-red-light: 0 84% 60%;
-    --hockey-red-dark: 0 84% 40%;
     
     /* Ice white */
     --ice-white: 0 0% 98%;

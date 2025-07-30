@@ -50,8 +50,7 @@ export const SignUpForm = ({ id = "signup", showHeading = true }: SignUpFormProp
         {showHeading && (
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-6xl font-black text-hockey-black mb-6">
-              Apply Now to{" "}
-              <span className="text-hockey-red">Join the Team!</span>
+              Apply Now to Join the Team!
             </h2>
             <p className="text-xl text-hockey-gray max-w-2xl mx-auto">
               Ready to become a Better Hockey ambassador? Fill out the form below!
@@ -125,10 +124,10 @@ export const SignUpForm = ({ id = "signup", showHeading = true }: SignUpFormProp
             
             <Button
               type="submit"
-              variant="energy"
+              variant="default"
               size="xl"
               disabled={isSubmitting}
-              className="w-full"
+              className="w-full bg-hockey-black text-ice-white hover:bg-hockey-gray"
             >
               {isSubmitting ? "Submitting Application..." : "Apply to Join the Team! 🚀"}
             </Button>
