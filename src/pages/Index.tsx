@@ -18,7 +18,6 @@ const Index = () => {
       <HeroSection onApplyClick={scrollToForm} />
       
 
-
       {/* YouTube Placeholder */}
       <YouTubePlaceholder />
    
